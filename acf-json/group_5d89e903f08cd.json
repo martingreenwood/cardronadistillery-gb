@@ -3,6 +3,76 @@
     "title": "Cardrona Theme Settings",
     "fields": [
         {
+            "key": "field_5d9db9253c81f",
+            "label": "Cocktails Slider",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5d9db9383c820",
+            "label": "Cocktails Slider Intro",
+            "name": "cocktails_slider_intro",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 0,
+            "delay": 0
+        },
+        {
+            "key": "field_5d9db520af2ad",
+            "label": "Feature Product",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5d9db53daf2ae",
+            "label": "Feature Products Intro",
+            "name": "feature_products_intro",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 0,
+            "delay": 0
+        },
+        {
             "key": "field_5d89eac22c97c",
             "label": "Social Media",
             "name": "",
@@ -68,7 +138,7 @@
         },
         {
             "key": "field_5d8b5a0a5d717",
-            "label": "Newletter",
+            "label": "Newsletter",
             "name": "",
             "type": "tab",
             "instructions": "",
@@ -138,5 +208,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1569415678
+    "modified": 1570617677
 }

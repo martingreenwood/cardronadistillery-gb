@@ -1,11 +1,11 @@
 {
-    "key": "group_5d925b6d272e1",
-    "title": "Four Corners",
+    "key": "group_5d9b580ad662f",
+    "title": "Quotes \/ Awards",
     "fields": [
         {
-            "key": "field_5d9e162eb5179",
+            "key": "field_5d9b581a82550",
             "label": "Intro",
-            "name": "four_corners_intro",
+            "name": "quotes_intro",
             "type": "wysiwyg",
             "instructions": "",
             "required": 0,
@@ -22,10 +22,10 @@
             "delay": 0
         },
         {
-            "key": "field_5d9e163cb517a",
-            "label": "Four Corners",
-            "name": "four_corners",
-            "type": "group",
+            "key": "field_5d9b583282551",
+            "label": "Quotes",
+            "name": "quotes",
+            "type": "repeater",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -34,13 +34,17 @@
                 "class": "",
                 "id": ""
             },
-            "layout": "block",
+            "collapsed": "",
+            "min": 3,
+            "max": 3,
+            "layout": "table",
+            "button_label": "",
             "sub_fields": [
                 {
-                    "key": "field_5d9e1648b517b",
-                    "label": "Column 1",
-                    "name": "column_1",
-                    "type": "wysiwyg",
+                    "key": "field_5d9b583f82552",
+                    "label": "Image",
+                    "name": "image",
+                    "type": "image",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
@@ -49,36 +53,41 @@
                         "class": "",
                         "id": ""
                     },
-                    "default_value": "",
-                    "tabs": "all",
-                    "toolbar": "full",
-                    "media_upload": 0,
-                    "delay": 0
+                    "return_format": "array",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
                 },
                 {
-                    "key": "field_5d9e1695b517c",
-                    "label": "Column 2",
-                    "name": "column_2",
-                    "type": "wysiwyg",
+                    "key": "field_5d9b584c82553",
+                    "label": "Text",
+                    "name": "text",
+                    "type": "textarea",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
-                        "width": "25",
+                        "width": "50",
                         "class": "",
                         "id": ""
                     },
                     "default_value": "",
-                    "tabs": "all",
-                    "toolbar": "full",
-                    "media_upload": 0,
-                    "delay": 0
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": "",
+                    "new_lines": ""
                 },
                 {
-                    "key": "field_5d9e1697b517d",
-                    "label": "Column 3",
-                    "name": "column_3",
-                    "type": "wysiwyg",
+                    "key": "field_5d9b585b82554",
+                    "label": "Citation",
+                    "name": "citation_",
+                    "type": "text",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
@@ -88,34 +97,15 @@
                         "id": ""
                     },
                     "default_value": "",
-                    "tabs": "all",
-                    "toolbar": "full",
-                    "media_upload": 0,
-                    "delay": 0
-                },
-                {
-                    "key": "field_5d9e1699b517e",
-                    "label": "Column 4",
-                    "name": "column_4",
-                    "type": "wysiwyg",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "25",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "tabs": "all",
-                    "toolbar": "full",
-                    "media_upload": 0,
-                    "delay": 0
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
                 }
             ]
         },
         {
-            "key": "field_5d9e1c816ebb6",
+            "key": "field_5d9b587082555",
             "label": "Awards & Achievements",
             "name": "awards_achievements",
             "type": "wysiwyg",
@@ -137,9 +127,9 @@
     "location": [
         [
             {
-                "param": "page",
+                "param": "post_type",
                 "operator": "==",
-                "value": "16"
+                "value": "wps_products"
             }
         ]
     ],
@@ -151,5 +141,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1570642602
+    "modified": 1570540277
 }

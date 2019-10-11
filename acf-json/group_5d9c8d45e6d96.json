@@ -1,0 +1,62 @@
+{
+    "key": "group_5d9c8d45e6d96",
+    "title": "ABV \/ VOL",
+    "fields": [
+        {
+            "key": "field_5d9c8d4e0739f",
+            "label": "ABV",
+            "name": "abv",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "%",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5d9c8d54073a0",
+            "label": "VOL",
+            "name": "vol",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "ML",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "wps_products"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1570540923
+}

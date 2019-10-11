@@ -1,11 +1,11 @@
 {
-    "key": "group_5d925b6d272e1",
-    "title": "Four Corners",
+    "key": "group_5d9e0baa9c807",
+    "title": "Meet The Maker",
     "fields": [
         {
-            "key": "field_5d9e162eb5179",
+            "key": "field_5d9e0da1df36e",
             "label": "Intro",
-            "name": "four_corners_intro",
+            "name": "meet_the_maker_content",
             "type": "wysiwyg",
             "instructions": "",
             "required": 0,
@@ -22,10 +22,10 @@
             "delay": 0
         },
         {
-            "key": "field_5d9e163cb517a",
-            "label": "Four Corners",
-            "name": "four_corners",
-            "type": "group",
+            "key": "field_5d9e0db7df36f",
+            "label": "Background Image",
+            "name": "meet_the_maker_background_image",
+            "type": "image",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -34,18 +34,85 @@
                 "class": "",
                 "id": ""
             },
+            "return_format": "array",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5d9e0eaedf370",
+            "label": "Profile Image",
+            "name": "meet_the_maker_profile_image",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5d9e0ecddf371",
+            "label": "Meet The Maker Bio",
+            "name": "meet_the_maker_bio",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "60",
+                "class": "",
+                "id": ""
+            },
             "layout": "block",
             "sub_fields": [
                 {
-                    "key": "field_5d9e1648b517b",
-                    "label": "Column 1",
-                    "name": "column_1",
+                    "key": "field_5d9e0edadf372",
+                    "label": "Title",
+                    "name": "title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "100",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5d9e0ee8df373",
+                    "label": "Column One",
+                    "name": "column_one",
                     "type": "wysiwyg",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
-                        "width": "25",
+                        "width": "50",
                         "class": "",
                         "id": ""
                     },
@@ -56,53 +123,15 @@
                     "delay": 0
                 },
                 {
-                    "key": "field_5d9e1695b517c",
-                    "label": "Column 2",
-                    "name": "column_2",
+                    "key": "field_5d9e0efedf374",
+                    "label": "Column Two",
+                    "name": "column_two",
                     "type": "wysiwyg",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
-                        "width": "25",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "tabs": "all",
-                    "toolbar": "full",
-                    "media_upload": 0,
-                    "delay": 0
-                },
-                {
-                    "key": "field_5d9e1697b517d",
-                    "label": "Column 3",
-                    "name": "column_3",
-                    "type": "wysiwyg",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "25",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "tabs": "all",
-                    "toolbar": "full",
-                    "media_upload": 0,
-                    "delay": 0
-                },
-                {
-                    "key": "field_5d9e1699b517e",
-                    "label": "Column 4",
-                    "name": "column_4",
-                    "type": "wysiwyg",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "25",
+                        "width": "50",
                         "class": "",
                         "id": ""
                     },
@@ -113,25 +142,6 @@
                     "delay": 0
                 }
             ]
-        },
-        {
-            "key": "field_5d9e1c816ebb6",
-            "label": "Awards & Achievements",
-            "name": "awards_achievements",
-            "type": "wysiwyg",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "tabs": "all",
-            "toolbar": "full",
-            "media_upload": 0,
-            "delay": 0
         }
     ],
     "location": [
@@ -151,5 +161,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1570642602
+    "modified": 1570639158
 }

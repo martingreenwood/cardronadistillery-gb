@@ -1,51 +1,56 @@
 {
-    "key": "group_5d925b6d272e1",
-    "title": "Four Corners",
+    "key": "group_5d9b4626aa2a9",
+    "title": "Spirit Points",
     "fields": [
         {
-            "key": "field_5d9e162eb5179",
-            "label": "Intro",
-            "name": "four_corners_intro",
-            "type": "wysiwyg",
+            "key": "field_5d9b463ca0f64",
+            "label": "Big Image",
+            "name": "big_image",
+            "type": "image",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
-                "width": "",
+                "width": "50",
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
-            "tabs": "all",
-            "toolbar": "full",
-            "media_upload": 0,
-            "delay": 0
+            "return_format": "array",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
         },
         {
-            "key": "field_5d9e163cb517a",
-            "label": "Four Corners",
-            "name": "four_corners",
+            "key": "field_5d9b4663a0f65",
+            "label": "Points",
+            "name": "points",
             "type": "group",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
-                "width": "",
+                "width": "50",
                 "class": "",
                 "id": ""
             },
             "layout": "block",
             "sub_fields": [
                 {
-                    "key": "field_5d9e1648b517b",
-                    "label": "Column 1",
-                    "name": "column_1",
+                    "key": "field_5d9b4671a0f66",
+                    "label": "Point One",
+                    "name": "point_one",
                     "type": "wysiwyg",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
-                        "width": "25",
+                        "width": "",
                         "class": "",
                         "id": ""
                     },
@@ -56,15 +61,15 @@
                     "delay": 0
                 },
                 {
-                    "key": "field_5d9e1695b517c",
-                    "label": "Column 2",
-                    "name": "column_2",
+                    "key": "field_5d9b467fa0f67",
+                    "label": "Point Two",
+                    "name": "point_two",
                     "type": "wysiwyg",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
-                        "width": "25",
+                        "width": "",
                         "class": "",
                         "id": ""
                     },
@@ -75,34 +80,15 @@
                     "delay": 0
                 },
                 {
-                    "key": "field_5d9e1697b517d",
-                    "label": "Column 3",
-                    "name": "column_3",
+                    "key": "field_5d9b4685a0f68",
+                    "label": "Point Three",
+                    "name": "point_three",
                     "type": "wysiwyg",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
-                        "width": "25",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "tabs": "all",
-                    "toolbar": "full",
-                    "media_upload": 0,
-                    "delay": 0
-                },
-                {
-                    "key": "field_5d9e1699b517e",
-                    "label": "Column 4",
-                    "name": "column_4",
-                    "type": "wysiwyg",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "25",
+                        "width": "",
                         "class": "",
                         "id": ""
                     },
@@ -113,33 +99,14 @@
                     "delay": 0
                 }
             ]
-        },
-        {
-            "key": "field_5d9e1c816ebb6",
-            "label": "Awards & Achievements",
-            "name": "awards_achievements",
-            "type": "wysiwyg",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "tabs": "all",
-            "toolbar": "full",
-            "media_upload": 0,
-            "delay": 0
         }
     ],
     "location": [
         [
             {
-                "param": "page",
+                "param": "post_type",
                 "operator": "==",
-                "value": "16"
+                "value": "wps_products"
             }
         ]
     ],
@@ -151,5 +118,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1570642602
+    "modified": 1570539915
 }
