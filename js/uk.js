@@ -69,6 +69,6 @@ function getCookie(c_name) {
 
 	setTimeout(function() {
 		$('.country-alert').addClass('show');
-	}, 3500)
+	}, 10000)
 
 })(jQuery);
