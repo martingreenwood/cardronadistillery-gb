@@ -11,4 +11,5 @@ function cardrona_gb_styles() {
 		wp_enqueue_script( 'mapsvg-JS', get_stylesheet_directory_uri() . '/mapsvg/js/mapsvg.js', array(), false, true );
 		wp_enqueue_script( 'ukmap', get_stylesheet_directory_uri() . '/js/map.js', array(), false, true );
 	endif;
+	// wp_enqueue_script( 'uk', get_stylesheet_directory_uri() . '/js/uk.js', array(), false, false );
 }
