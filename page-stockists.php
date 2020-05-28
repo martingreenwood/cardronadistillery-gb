@@ -45,7 +45,7 @@ get_header();
 			<div class="row intro center-xs">
 
 				<header>
-					<h2>United Kingdon</h2>
+					<h2>United Kingdom</h2>
 					<p>Please select a region by clicking on the map</p>
 				</header>
 
